@@ -1,0 +1,20 @@
+{
+  "name": "mocha-example",
+  "version": "1.0.0",
+  "description": "mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter xunit --grep=\"/^should return -1 when the value is not present2$/\""
+  },
+  "author": "",
+  "license": "ISC"
+}
