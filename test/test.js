@@ -20,3 +20,17 @@ describe('Array', function() {
     });
   });
 });
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('test3', function() {
+      assert.equal([1,2,3].indexOf(4), -1);
+    });
+  });
+});
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('test4', function() {
+      assert.equal([1,2,3].indexOf(4), -1);
+    });
+  });
+});
